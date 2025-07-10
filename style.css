@@ -1,30 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+/* font from google */
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-.raleway-font{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.raleway-font {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* header section */
 
-header{
+header {
     background-image: url(/Assets/Hero-bg.png);
     width: 100%;
     height: 698px;
     display: flex;
     flex-direction: column;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -34,12 +35,14 @@ nav {
     /* background: red; */
     margin: 0 auto;
 }
-nav h3{
+
+nav h3 {
     color: rgb(78, 71, 255);
     font-size: 34px;
     font-weight: 900;
 }
-.btn{
+
+.btn {
     padding: 12px 36px;
     background-color: rgb(78, 71, 255);
     color: white;
@@ -47,21 +50,63 @@ nav h3{
     font-size: 16px;
     font-weight: 700;
     border: none;
+    font-family: "Raleway", sans-serif;
 }
-.banner{
+
+.banner {
     text-align: center;
     /* background-color: green; */
     width: 905px;
     height: 237px;
     margin: 158px auto;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 65px;
     font-weight: 700;
     color: rgb(37, 36, 50);
-     font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
-.banner .btn{
+
+.banner .btn {
     margin-top: 37px;
-     font-family: "Raleway", sans-serif;
+}
+
+
+/* action section */
+.action{
+    display: flex;
+    width: 1140px;
+    /* height: 328px;
+    background: red; */
+    margin: 116px auto;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.action .left-action {
+text-align: left;
+
+}
+.action .left-action h2{
+   font-size: 42px;
+   font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    color: rgb(37, 36, 50);
+    margin-bottom: 23px;
+
+}
+.action .left-action p{
+   font-size: 24px;
+   font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    color: rgba(37, 36, 50, 0.5);
+       margin-bottom: 23px;
+
+}
+.action .right-action img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
