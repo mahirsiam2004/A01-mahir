@@ -1,418 +1,407 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* font from google */
 .inter-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .raleway-font {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 body {
-    background-color: rgb(245, 248, 255);
+  background-color: rgb(245, 248, 255);
 }
 
 /* header section */
 
 header {
-    background-image: url(./Assets/Hero-bg.png);
-    width: 100%;
-    height: 698px;
-    display: flex;
-    flex-direction: column;
+  background-image: url(./Assets/Hero-bg.png);
+  width: 100%;
+  height: 698px;
+  display: flex;
+  flex-direction: column;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1140px;
-    height: 151px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  height: 151px;
+  margin: 0 auto;
 }
 
 nav h3 {
-    color: rgb(78, 71, 255);
-    font-size: 34px;
-    font-weight: 900;
+  color: rgb(78, 71, 255);
+  font-size: 34px;
+  font-weight: 900;
 }
 
 .btn {
-    padding: 12px 36px;
-    background-color: rgb(78, 71, 255);
-    color: white;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 700;
-    border: none;
-    font-family: "Raleway", sans-serif;
-    transition: 0.2s ease-in;
+  padding: 12px 36px;
+  background-color: rgb(78, 71, 255);
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  font-family: "Raleway", sans-serif;
+  /* transition: 0.2s ease-in; */
 }
 
-.btn:hover {
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    transform: scale(1.1);
-}
+/* .btn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+} */
 
 .banner {
-    text-align: center;
-    width: 905px;
-    height: 237px;
-    margin: 158px auto;
+  text-align: center;
+  width: 905px;
+  height: 237px;
+  margin: 158px auto;
 }
 
 .banner h1 {
-    font-size: 65px;
-    font-weight: 700;
-    color: rgb(37, 36, 50);
-    font-family: "Raleway", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  color: rgb(37, 36, 50);
+  font-family: "Raleway", sans-serif;
 }
 
 .banner .btn {
-    margin-top: 37px;
+  margin-top: 37px;
 }
-
 
 /* action section */
 .action {
-    display: flex;
-    width: 1140px;
-    margin: 116px auto;
-    align-items: center;
-    justify-content: space-between;
-
+  display: flex;
+  width: 1140px;
+  margin: 116px auto;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .action .left-action {
-    text-align: left;
-
+  text-align: left;
 }
 
 .action .left-action h2 {
-    font-size: 42px;
-    font-weight: 700;
-    font-family: "Raleway", sans-serif;
-    color: rgb(37, 36, 50);
-    margin-bottom: 23px;
-
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: rgb(37, 36, 50);
+  margin-bottom: 23px;
 }
 
 .action .left-action p {
-    font-size: 24px;
-    font-weight: 400;
-    font-family: "Raleway", sans-serif;
-    color: rgba(37, 36, 50, 0.5);
-    margin-bottom: 23px;
-
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 23px;
 }
 
 .action .right-action img {
-    width: 403px;
-    height: 328px;
-    border-radius: 48px;
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
 }
 
 /* productive -section */
 .productive {
-    margin: 116px auto;
-    width: 1140px;
-    height: 306px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background-color: rgba(78, 71, 255, 0.1);
-    border-radius: 24px;
-    gap: 40px;
-    /* padding: 50px 142px; */
-    padding: 50px, 80px, 50px, 80px;
-
+  margin: 116px auto;
+  width: 1140px;
+  height: 306px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(78, 71, 255, 0.1);
+  border-radius: 24px;
+  gap: 40px;
+  /* padding: 50px 142px; */
+  padding: 50px, 80px, 50px, 80px;
 }
 
 .top-productive h1 {
-    font-size: 38px;
-    font-weight: 700;
-    font-family: "Raleway", sans-serif;
-    color: rgb(37, 36, 50);
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: rgb(37, 36, 50);
 }
 
 .bottom-productive {
-    display: flex;
-    gap: 158px;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  gap: 158px;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
-    width: 180px;
-    height: 121px;
+  width: 180px;
+  height: 121px;
 }
 
 .box h1 {
-    font-size: 80px;
-    font-weight: 700;
-    color: rgb(78, 71, 255);
+  font-size: 80px;
+  font-weight: 700;
+  color: rgb(78, 71, 255);
 }
 
 .box p {
-    font-size: 20px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* review section the challenge part */
 .review {
-    margin: 137px auto;
-    width: 1140px;
-    height: 342px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  margin: 137px auto;
+  width: 1140px;
+  height: 342px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .review-container {
-    width: 1140px;
-    height: 243px;
-    text-align: left;
-    /* padding: 24px; */
-    gap: 20px;
-    border-radius: 14px;
-    padding: 11px 0;
-    display: flex;
-
+  width: 1140px;
+  height: 243px;
+  text-align: left;
+  /* padding: 24px; */
+  gap: 20px;
+  border-radius: 14px;
+  padding: 11px 0;
+  display: flex;
 }
 
 .review-box {
-    width: 366.67px;
-    height: 221px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 14px;
-
+  width: 366.67px;
+  height: 221px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 14px;
 }
 
 .review h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 42px;
-    font-weight: 700;
-    margin-bottom: 50px;
-
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
 .review-box img {
-    width: 20px;
-    height: 20px;
-    margin-top: 24px;
-
+  width: 20px;
+  height: 20px;
+  margin-top: 24px;
 }
 
 .review-box h3 {
-    font-size: 24px;
-    font-weight: 600;
-    color: rgb(30, 30, 30);
-    /* margin-bottom: 15px; */
-
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(30, 30, 30);
+  /* margin-bottom: 15px; */
 }
 
 .review-box p {
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(30, 30, 30);
-    /* margin-bottom: 10px; */
-
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(30, 30, 30);
+  /* margin-bottom: 10px; */
 }
 
 .user {
-    margin-top: 24px;
-    display: flex;
-    width: 318.67px;
-    height: 46px;
-    align-items: last baseline;
-    text-align: left;
-    gap: 6px;
+  margin-top: 24px;
+  display: flex;
+  width: 318.67px;
+  height: 46px;
+  align-items: last baseline;
+  text-align: left;
+  gap: 6px;
 }
 
 .user img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .user h3 {
-    font-size: 16px;
-    font-weight: 600;
-
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .user h4 {
-    font-size: 16px;
-    font-weight: 600;
-    color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(117, 117, 117);
 }
 
 /* focus section */
 .focus {
-    width: 1140px;
-    height: 696.77px;
-    padding: 71px, 150px, 71px, 150px;
-    margin: 137px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
-    border-radius: 14px;
+  width: 1140px;
+  height: 696.77px;
+  padding: 71px, 150px, 71px, 150px;
+  margin: 137px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 14px;
 }
 
 .focus h1 {
-    font-size: 50px;
-    font-weight: 700;
-    font-family: "Raleway", sans-serif;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
 }
 
 .focus p {
-    font-size: 16px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 20px;
-
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
 }
 
 .focus img {
-    width: 840px;
-    height: 364.77px;
-    border-radius: 48px;
-    margin-top: 20px;
+  width: 840px;
+  height: 364.77px;
+  border-radius: 48px;
+  margin-top: 20px;
 }
-
 
 /* newsletter section */
 .newsletter {
-    width: 1140px;
-    height: 632px;
-    padding: 71px, 0px, 71px, 0px;
-    margin: 92px auto;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: rgb(245, 248, 255); */
+  width: 1140px;
+  height: 632px;
+  padding: 71px, 0px, 71px, 0px;
+  margin: 92px auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: rgb(245, 248, 255); */
 }
 
 .newsletter h1 {
-    font-size: 97px;
-    font: 700;
+  font-size: 97px;
+  font: 700;
 }
 
 .newsletter form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    font-family: "Raleway", sans-serif;
-
+  font-family: "Raleway", sans-serif;
 }
 
 .newsletter input {
-    height: 70px;
-    width: 497px;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    padding: 20px 32px;
-    color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 19px;
-    border: none;
-    font-weight: 400;
-     font-family: "Inter", sans-serif;
+  height: 70px;
+  width: 497px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 32px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 19px;
+  border: none;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
 }
 
 .newsletter label {
-     font-family: "Inter", sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 textarea {
-    height: 135px;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    padding: 20px 32px;
-    color: rgba(0, 0, 0, 0.5);
-    margin-bottom: 19px;
-    border: none;
-    font-weight: 400;
-     font-family: "Inter", sans-serif;
+  height: 135px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 32px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 19px;
+  border: none;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
 }
 
 input[type="submit"] {
-    background-color: rgb(78, 71, 255);
-    color: white;
+  background-color: rgb(78, 71, 255);
+  color: white;
 }
 
 /* footer section */
 
 footer {
-    width: 100%;
-    height: 428px;
-    background-color: white;
-    display: flex;
-
+  width: 100%;
+  height: 428px;
+  background-color: white;
+  display: flex;
 }
 
 .footer-container {
-    width: 531px;
-    height: 221px;
-    margin: 104px auto;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
+  width: 531px;
+  height: 221px;
+  margin: 104px auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 footer h1 {
-    font-size: 100px;
-    font-weight: 900;
-    color: rgb(78, 71, 255);
+  font-size: 100px;
+  font-weight: 900;
+  color: rgb(78, 71, 255);
 }
 
 footer p {
-    font-size: 16px;
-    font-weight: 400;
-    color: rgb(137, 135, 161);
-    margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(137, 135, 161);
+  margin-bottom: 20px;
 }
 
 footer li,
 a {
-    list-style: none;
-    text-decoration: none;
-    color: rgb(137, 135, 161);
+  list-style: none;
+  text-decoration: none;
+  color: rgb(137, 135, 161);
 }
 
 footer a:hover {
-    color: black;
-    cursor: pointer;
+  color: black;
+  cursor: pointer;
 }
 
 footer .navigator ul {
-    display: flex;
-    gap: 48px;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* responsive design */
+
+@media screen and (max-width<576px) {
+  nav {
+    flex-direction: column;
+  }
 }
